@@ -17,7 +17,8 @@ function destructivelyAddElementToEndOfArray(){
 }
 
 function accessElementInArray(array, index){
-return chocolateBars[3]
+  const days = [1,2,3]
+return days[3]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
