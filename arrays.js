@@ -17,14 +17,11 @@ function destructivelyAddElementToEndOfArray(){
 }
 
 function accessElementInArray(array, index){
-  const days = [1,2,3]
-return days[3]
+return chocolateBars[3]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-const days = [1,2,3]
-  days.shift()
-  days
+  return chocolateBars.shift()
 }
 
 function removeElementFromBeginningOfArray(array){
@@ -37,5 +34,5 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 
 function removeElementFromEndOfArray(array){
-
+return chocolateBars.slice(0, chocolateBars.length - 1)
 }
