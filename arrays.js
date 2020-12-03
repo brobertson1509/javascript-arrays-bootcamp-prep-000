@@ -5,8 +5,8 @@ function addElementToBeginningOfArray(array,element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element){
-chocolateBars = ['foo','1']
-chocolateBars
+chocolateBars.unshift('foo')
+return cho
 }
 
 function addElementToEndOfArray(array, element){
@@ -14,7 +14,8 @@ function addElementToEndOfArray(array, element){
 }
 
 function destructivelyAddElementToEndOfArray(){
- return chocolateBars = [1, 'foo']
+chocolateBars.push('foo')
+ return chocolateBars 
 }
 
 function accessElementInArray(array, index){
