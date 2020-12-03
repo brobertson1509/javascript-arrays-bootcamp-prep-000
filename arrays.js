@@ -18,8 +18,8 @@ chocolateBars.push("foo");
  return chocolateBars;
 }
 
-function accessElementInArray(array, index){
-return array[index];
+function accessElementInArray(chocolateBars, 1){
+return chocolateBars[1];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
