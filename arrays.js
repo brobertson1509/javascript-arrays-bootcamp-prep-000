@@ -22,7 +22,9 @@ return days[3]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return chocolateBars.shift()
+const days = [1,2,3]
+  days.shift()
+  days
 }
 
 function removeElementFromBeginningOfArray(array){
