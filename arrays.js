@@ -13,8 +13,8 @@ function addElementToEndOfArray(chocolateBars, candy){
   return [1, candy];
 }
 
-function destructivelyAddElementToEndOfArray(){
-chocolateBars.push(candy);
+function destructivelyAddElementToEndOfArray(chocolateBars, foo){
+chocolateBars.push("foo");
  return chocolateBars;
 }
 
