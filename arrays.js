@@ -20,7 +20,7 @@ chocolateBars.push(candy);
 }
 
 function accessElementInArray(array, index){
-return chocolateBars[3];
+return array[3];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
